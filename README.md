@@ -13,17 +13,24 @@ I am a Master’s student in AI at San Jose State University, specializing in **
 
 ## 🚀 Featured Projects
 
-### [SAM-E: Agentic Enrollment Assistant](Link-to-repo)
+### [SAM-E: Agentic Enrollment Assistant](https://github.com/HenryNVP/strategic_planning_AI.git)
 * **Tech:** LangGraph, Neo4j, Docker, FastAPI
 * **Summary:** A microservices-based agent that orchestrates degree audits and scheduling. Features a Hybrid RAG pipeline (Graph + Vector) to reduce hallucinations.
 
-### [ROS2 BEV-Fusion](Link-to-repo)
+### [ROS2 BEV-Fusion](https://github.com/HenryNVP/ros2-bevfusion-jetson.git)
 * **Tech:** ROS2, TensorRT, CUDA, LiDAR-Camera Fusion
 * **Summary:** Real-time 3D object detection on NVIDIA Jetson. Optimized inference to ~7 FPS using FP16 quantization.
 
-### [AI Tutor](Link-to-repo)
+### [AI Tutor](https://github.com/HenryNVP/ai-tutor.git)
 * **Tech:** RAG, ChromaDB, OpenAI, Streamlit
 * **Summary:** An educational agent measuring 320x faster retrieval speeds via source-filtering. Includes secure code execution for data visualization.
+
+### [Anime Recommender](https://github.com/HenryNVP/anime_recomender)
+
+
+### [Image Classification](https://github.com/HenryNVP/image-classification.git)
+
+### [FastViT Pet Mobile](https://github.com/HenryNVP/fastvit-pet-mobile.git)
 
 ---
 

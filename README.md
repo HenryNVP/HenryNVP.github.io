@@ -9,94 +9,68 @@
 ## 👋 About Me
 I am a Master's student in AI at San Jose State University, specializing in **Autonomous Systems**, **Agentic AI**, and **Edge Deployment**. I bridge the gap between high-level reasoning (LLMs) and low-level hardware optimization (TensorRT/CUDA).
 
-[📥 Download My Resume (PDF)](link-to-your-pdf-file)
-
----
-
-## 🎓 Education
-
-**Master of Science in Artificial Intelligence** | *Expected May 2026*  
-San Jose State University, San Jose, CA  
-*Coursework: AI & Data Engineering, Machine Learning, Deep Learning, Intelligent Autonomous Systems, Data Mining*
-
-**Bachelor of Engineering in Mechatronic Engineering** | *April 2023*  
-Ho Chi Minh City University of Technology, Vietnam
+[📥 Download My Resume (PDF)](./HenryNguyen_Resume.pdf)
 
 ---
 
 ## 🚀 Featured AI Projects
 
-### [SAM-E: Multi-Agent Enrollment Assistant](https://github.com/HenryNVP/strategic_planning_AI.git)
+### 🎓 [SAM-E: Multi-Agent Enrollment Assistant](https://github.com/HenryNVP/strategic_planning_AI)
 * **Tech:** GenAI, RAG, LangGraph, Docker, FastAPI
-* **Summary:** Architected a microservices-based agentic system with three services (Agent, RAG, Enrollment Engine) using Docker Compose and LangGraph to route user intents to specialized tools. Developed a retrieval pipeline using pgvector to support academic queries, with planned integration of a Neo4j knowledge graph; demonstrated functionality via FastAPI, JWT authentication, and Prometheus metrics.
+* **Summary:** Architected a microservices-based agentic system with three services (Agent, RAG, Enrollment Engine) using Docker Compose and LangGraph. Developed a retrieval pipeline using **pgvector** to support academic queries and demonstrated functionality via a production-ready **FastAPI** backend with JWT authentication and Prometheus metrics.
 
-### [AI Tutor: RAG-Powered Learning Platform](https://github.com/HenryNVP/ai-tutor.git)
+### 🤖 [AI Tutor: RAG-Powered Learning Platform](https://github.com/HenryNVP/ai-tutor)
 * **Tech:** GenAI, RAG, MCP, FastAPI, OpenAI Agents SDK
-* **Summary:** Built a full-stack multi-agent educational system that ingests documents to generate cited answers, adaptive quizzes, and lesson notes via a source-filtered RAG pipeline using ChromaDB. Implemented an MCP server and secure Python execution with FastAPI backend, enabling structured tool use, real-time data visualization from CSVs, and adaptive learning features that track student progress.
+* **Summary:** Built a full-stack multi-agent educational system that ingests documents to generate cited answers and adaptive quizzes. Engineered a **source-filtered RAG pipeline** (320x faster retrieval) and a secure Python execution sandbox for real-time data visualization from user CSVs.
 
-### [ROS2 BEV-Fusion: Real-Time 3D Perception](https://github.com/HenryNVP/ros2-bevfusion-jetson.git)
+### 🚗 [ROS2 BEV-Fusion: Real-Time 3D Perception](https://github.com/HenryNVP/ros2-bevfusion-jetson)
 * **Tech:** Python, ROS2, TensorRT, CUDA, Jetson, Edge AI
-* **Summary:** Developed an optimized BEVFusion 3D perception pipeline for multi-camera and LiDAR fusion, validated on NuScenes and deployed as a modular ROS2 package. Optimized end-to-end inference with TensorRT and quantization, achieving ~7 FPS for the full BEVFusion pipeline on Jetson Orin Nano and publishing ROS2 detection outputs with latency metrics.
+* **Summary:** Developed an optimized BEVFusion 3D perception pipeline for multi-camera and LiDAR fusion. Optimized end-to-end inference with **TensorRT and FP16 quantization**, achieving **~7 FPS** on NVIDIA Jetson Orin Nano and publishing synchronized ROS2 detection messages.
 
 ---
 
-## 💼 Additional Projects
+## 🛠 Engineering Portfolio
 
-* **[FastViT Mobile Optimization](projects/fastvit-pet-mobile.md):** Optimized Vision Transformers using Performer attention (O(N) complexity) and knowledge distillation, achieving 90.1% accuracy @ 43ms on Android with stage freezing for transfer learning.
-* **[3D Object Detection Pipeline](projects/object-detection.md):** Built a 3D object detection inference pipeline using MMDetection3D (PointPillars, SECOND, CenterPoint) for KITTI and nuScenes, focusing on model evaluation, visualization, and deployment analysis.
-* **[Image Classification](projects/image-classification.md):** Developed a flexible image classification pipeline with timm, enabling YAML-based training and benchmarking of CNN and ViT architectures on the Oxford-IIIT Pet dataset.
-* **[Anime RecSys](projects/anime_recommender.md):** Benchmarked Two-Tower vs. NeuMF architectures with multiple objectives (MSE, ApproxNDCG); deployed best model via FastAPI with sub-50ms latency.
+### 📱 [FastViT Mobile Optimization](https://github.com/HenryNVP/fastvit-pet-mobile)
+Optimized Vision Transformers using **Performer attention (O(N))** and knowledge distillation. Achieved **90.1% accuracy @ 43ms** on Android devices.
+* *Stack: PyTorch, ONNX, Android, Knowledge Distillation*
 
----
+### 📺 [Anime Recommendation System](https://github.com/HenryNVP/anime_recomender)
+Benchmarked **Two-Tower vs. NeuMF** architectures with multiple objectives (MSE, ApproxNDCG). Deployed the best model via FastAPI with **sub-50ms latency**.
+* *Stack: PyTorch, Matrix Factorization, Two-Tower, FastAPI*
 
-## 📋 All Projects
+### 🖼 [3D Object Detection Pipeline](https://github.com/HenryNVP/object-detection-3d)
+Built a modular inference pipeline using **MMDetection3D** (PointPillars, CenterPoint) for KITTI and nuScenes datasets, focusing on deployment analysis and visualization.
+* *Stack: MMDetection3D, PyTorch, PointPillars, CenterPoint*
 
-1. **[SAM-E: Multi-Agent Enrollment Assistant](projects/enrollment-assistance.md)** | [GitHub](https://github.com/HenryNVP/strategic_planning_AI.git)
-   - *Tech: GenAI, RAG, LangGraph, Docker, FastAPI*
-   - Microservices-based agentic system for enrollment assistance
-
-2. **[AI Tutor: RAG-Powered Learning Platform](projects/ai-tutor.md)** | [GitHub](https://github.com/HenryNVP/ai-tutor.git)
-   - *Tech: GenAI, RAG, MCP, FastAPI, OpenAI Agents SDK*
-   - Full-stack educational system with cited answers and adaptive quizzes
-
-3. **[ROS2 BEV-Fusion: Real-Time 3D Perception](projects/ros2-bev-fusion.md)** | [GitHub](https://github.com/HenryNVP/ros2-bevfusion-jetson.git)
-   - *Tech: Python, ROS2, TensorRT, CUDA, Jetson, Edge AI*
-   - Optimized 3D perception pipeline for multi-camera and LiDAR fusion
-
-4. **[FastViT Mobile Optimization](projects/fastvit-pet-mobile.md)**
-   - *Tech: PyTorch, ONNX, Android, Performer Attention, Knowledge Distillation*
-   - Mobile-optimized Vision Transformers achieving 90.1% accuracy @ 43ms
-
-5. **[3D Object Detection Pipeline](projects/object-detection.md)**
-   - *Tech: MMDetection3D, PyTorch, PointPillars, SECOND, CenterPoint*
-   - Inference pipeline for KITTI and nuScenes datasets
-
-6. **[Image Classification](projects/image-classification.md)**
-   - *Tech: timm, PyTorch, RegNet, YAML configs*
-   - Flexible training pipeline for CNN and ViT architectures
-
-7. **[Anime Recommender](projects/anime_recommender.md)**
-   - *Tech: PyTorch, Matrix Factorization, NeuMF, Two-Tower, FastAPI*
-   - Recommender system with multiple architectures and objectives
+### 🐕 [Flexible Image Classification](https://github.com/HenryNVP/image-classification)
+Developed a training pipeline with **timm**, enabling YAML-based benchmarking of CNN and ViT architectures on the Oxford-IIIT Pet dataset.
+* *Stack: timm, PyTorch, RegNet, YAML configs*
 
 ---
 
 ## 💻 Professional Experience
 
-**Software Engineer (Automotive Systems)** | *Jun. 2023 -- Dec. 2023*  
-Bosch Global Software Technologies, Ho Chi Minh, Vietnam
-* Led integration testing for the Electronic Stability Program (ESP) across 10+ projects, ensuring ISO-standard compliance for safety-critical automotive software.
-* Collaborated with 5+ cross-functional teams to debug Hardware-in-the-Loop (HIL) failures, reducing defect resolution time by streamlining the error-reporting workflow.
+**Software Engineer (Automotive Systems)** | *Jun. 2023 -- Dec. 2023* *Bosch Global Software Technologies, Ho Chi Minh, Vietnam*
+* Led integration testing for the Electronic Stability Program (ESP) across 10+ projects, ensuring ISO-standard compliance.
+* Collaborated with cross-functional teams to debug Hardware-in-the-Loop (HIL) failures, reducing defect resolution time.
 
-**Undergraduate Researcher** | *Aug. 2022 -- Dec. 2022*  
-Mechatronics Lab, HCMUT, Ho Chi Minh, Vietnam
-* Designed an adaptive 3-finger robotic gripper (+200% payload capacity) and developed the C++ control stack for a 5-axis manipulator to execute automated pick-and-place tasks.
+**Undergraduate Researcher** | *Aug. 2022 -- Dec. 2022* *Mechatronics Lab, HCMUT, Ho Chi Minh, Vietnam*
+* Designed an adaptive 3-finger robotic gripper (+200% payload capacity) and developed the C++ control stack for a 5-axis manipulator.
 
 ---
 
-## 🛠 Technical Skills
+## 🎓 Education
 
-* **AI & Agents:** LLMs, LangGraph, RAG, Vector DBs, LangChain, Agentic AI, Reasoning techniques (Chain-of-Thought)
-* **Machine Learning & Deep Learning:** PyTorch, ONNX, TensorRT, Scikit-learn, CNNs, Transformers, Recommender systems
-* **Robotics & Autonomous Systems:** ROS2, LiDAR-Camera Fusion, SLAM, Control systems, Autonomous driving pipelines
-* **Software & Deployment:** Python, FastAPI, Microservices, Git, Docker, Edge & mobile AI deployment
+**Master of Science in Artificial Intelligence** | *Expected May 2026* San Jose State University, San Jose, CA
+
+**Bachelor of Engineering in Mechatronic Engineering** | *April 2023* Ho Chi Minh City University of Technology, Vietnam
+
+---
+
+## 🔧 Technical Skills
+
+* **AI & Agents:** LLMs, LangGraph, RAG, Vector DBs, LangChain, Agentic AI, Chain-of-Thought
+* **Machine Learning:** PyTorch, ONNX, TensorRT, Scikit-learn, CNNs, Transformers, RecSys
+* **Robotics:** ROS2, LiDAR-Camera Fusion, SLAM, Control systems, Autonomous pipelines
+* **Deployment:** Python, FastAPI, Microservices, Git, Docker, Edge & Mobile AI

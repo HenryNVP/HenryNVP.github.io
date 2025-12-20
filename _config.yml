@@ -1,4 +1,56 @@
-theme: jekyll-theme-professional
+# Site Settings
 title: Henry Nguyen
-description: AI & Robotics Engineer
-show_downloads: false
+name: "Henry Nguyen"
+description: "AI & Robotics Engineer | Master's Student at SJSU"
+url: "https://henrynvp.github.io"
+baseurl: ""
+
+# Minimal Mistakes Theme
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Site Author
+author:
+  name: "Henry Nguyen"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "AI & Robotics Engineer | Master's Student at SJSU"
+  location: "San Jose, CA"
+  email: "henrynguyen.vp@gmail.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/HenryNVP"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/henrynguyen-vp"
+
+# Navigation (empty for single page)
+navigation:
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+
+# SEO
+search: true

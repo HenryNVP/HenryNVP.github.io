@@ -3,14 +3,6 @@ layout: single
 author_profile: true
 ---
 
-# Henry Nguyen
-**AI & Robotics Engineer | Master's Student at SJSU**
-
-📍 San Jose, CA | 📞 (206) 751-6618  
-[LinkedIn](https://linkedin.com/in/henrynguyen-vp) | [GitHub](https://github.com/HenryNVP) | [Email](mailto:henrynguyen.vp@gmail.com)
-
----
-
 ### About Me
 I am a Master's student in AI at San Jose State University, specializing in **Autonomous Systems**, **Agentic AI**, and **Edge Deployment**. I bridge the gap between high-level reasoning (LLMs) and low-level hardware optimization (TensorRT/CUDA).
 

@@ -16,9 +16,9 @@ plugins:
 
 # Site Author
 author:
-  name: "Henry Nguyen"
+  name: ""
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "AI & Robotics Engineer | Master's Student at SJSU"
+  bio: "AI & Robotics Engineer<br>Master's Student at SJSU"
   location: "San Jose, CA"
   email: "henrynguyen.vp@gmail.com"
   links:

@@ -3,7 +3,6 @@ layout: single
 author_profile: true
 ---
 
-# Henry Nguyen
 **AI & Robotics Engineer | Master's Student at SJSU**
 
 📍 San Jose, CA | 📞 (206) 751-6618  
@@ -11,14 +10,14 @@ author_profile: true
 
 ---
 
-## 👋 About Me
+### 👋 About Me
 I am a Master's student in AI at San Jose State University, specializing in **Autonomous Systems**, **Agentic AI**, and **Edge Deployment**. I bridge the gap between high-level reasoning (LLMs) and low-level hardware optimization (TensorRT/CUDA).
 
 [📥 Download My Resume (PDF)](./HenryNguyen_Resume.pdf)
 
 ---
 
-## 🚀 Featured AI Projects
+### 🚀 Featured AI Projects
 
 ### 🎓 [SAM-E: Multi-Agent Enrollment Assistant](https://github.com/HenryNVP/strategic_planning_AI)
 * **Tech:** GenAI, RAG, LangGraph, Docker, FastAPI
@@ -34,7 +33,7 @@ I am a Master's student in AI at San Jose State University, specializing in **Au
 
 ---
 
-## 🛠 Engineering Portfolio
+### 🛠 Engineering Portfolio
 
 ### 📱 [FastViT Mobile Optimization](https://github.com/HenryNVP/fastvit-pet-mobile)
 Optimized Vision Transformers using **Performer attention (O(N))** and knowledge distillation. Achieved **90.1% accuracy @ 43ms** on Android devices.
@@ -54,7 +53,7 @@ Developed a training pipeline with **timm**, enabling YAML-based benchmarking of
 
 ---
 
-## 💻 Professional Experience
+### 💻 Professional Experience
 
 **Software Engineer (Automotive Systems)** | *Jun. 2023 -- Dec. 2023* *Bosch Global Software Technologies, Ho Chi Minh, Vietnam*
 * Led integration testing for the Electronic Stability Program (ESP) across 10+ projects, ensuring ISO-standard compliance.
@@ -65,15 +64,17 @@ Developed a training pipeline with **timm**, enabling YAML-based benchmarking of
 
 ---
 
-## 🎓 Education
+### 🎓 Education
 
-**Master of Science in Artificial Intelligence** | *Expected May 2026* San Jose State University, San Jose, CA
+**Master of Science in Artificial Intelligence** | *Expected May 2026*  
+San Jose State University, San Jose, CA
 
-**Bachelor of Engineering in Mechatronic Engineering** | *April 2023* Ho Chi Minh City University of Technology, Vietnam
+**Bachelor of Engineering in Mechatronic Engineering** | *April 2023*  
+Ho Chi Minh City University of Technology, Vietnam
 
 ---
 
-## 🔧 Technical Skills
+### 🔧 Technical Skills
 
 * **AI & Agents:** LLMs, LangGraph, RAG, Vector DBs, LangChain, Agentic AI, Chain-of-Thought
 * **Machine Learning:** PyTorch, ONNX, TensorRT, Scikit-learn, CNNs, Transformers, RecSys

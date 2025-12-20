@@ -1,8 +1,9 @@
 # Henry Nguyen
-**AI & Robotics Engineer | Master's Student at SJSU**
+**Master's Student in AI @ SJSU | Specializing in AI & Robotics**
 
-📍 San Jose, CA | 📞 (206) 751-6618  
-[LinkedIn](https://linkedin.com/in/henrynguyen-vp) | [GitHub](https://github.com/HenryNVP) | [Email](mailto:henrynguyen.vp@gmail.com)
+📍 San Jose, CA • 📞 (206) 751-6618
+
+🔗 [LinkedIn](https://linkedin.com/in/henrynguyen-vp) • [GitHub](https://github.com/HenryNVP) • [Email](mailto:henrynguyen.vp@gmail.com)
 
 ---
 

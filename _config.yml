@@ -1,6 +1,5 @@
 # Site Settings
-title: Henry Nguyen
-name: "Henry Nguyen"
+title: "Henry Nguyen - AI & Robotics Engineer"
 description: "AI & Robotics Engineer | Master's Student at SJSU"
 url: "https://henrynvp.github.io"
 baseurl: ""
@@ -53,4 +52,4 @@ defaults:
       author_profile: true
 
 # SEO
-search: true
+search: false

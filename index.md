@@ -1,9 +1,9 @@
 ---
 layout: single
 author_profile: true
+classes: wide
 ---
 
-### About Me
 I am a Master's student in AI at San Jose State University, specializing in **Autonomous Systems**, **Agentic AI**, and **Edge Deployment**. I bridge the gap between high-level reasoning (LLMs) and low-level hardware optimization (TensorRT/CUDA).
 
 [📥 Download My Resume (PDF)](./HenryNguyen_Resume.pdf)

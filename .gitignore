@@ -7,4 +7,31 @@ vendor
 Gemfile.lock
 
 projects/
+# LaTeX files
 *.tex
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+*.eps
+*.figlist
+*.makefile
+*.figlist
+*.auxlock

@@ -42,10 +42,42 @@ Ho Chi Minh City University of Technology, Vietnam
 
 ## 💼 Additional Projects
 
-* **FastViT Mobile Optimization:** Optimized Vision Transformers using Performer attention (O(N) complexity) and knowledge distillation, achieving 90.1% accuracy @ 43ms on Android with stage freezing for transfer learning.
-* **3D Object Detection Pipeline:** Built a 3D object detection inference pipeline using MMDetection3D (PointPillars, SECOND, CenterPoint) for KITTI and nuScenes, focusing on model evaluation, visualization, and deployment analysis.
-* **Image Classification:** Developed a flexible image classification pipeline with timm, enabling YAML-based training and benchmarking of CNN and ViT architectures on the Oxford-IIIT Pet dataset.
-* **Anime RecSys:** Benchmarked Two-Tower vs. NeuMF architectures with multiple objectives (MSE, ApproxNDCG); deployed best model via FastAPI with sub-50ms latency.
+* **[FastViT Mobile Optimization](projects/fastvit-pet-mobile.md):** Optimized Vision Transformers using Performer attention (O(N) complexity) and knowledge distillation, achieving 90.1% accuracy @ 43ms on Android with stage freezing for transfer learning.
+* **[3D Object Detection Pipeline](projects/object-detection.md):** Built a 3D object detection inference pipeline using MMDetection3D (PointPillars, SECOND, CenterPoint) for KITTI and nuScenes, focusing on model evaluation, visualization, and deployment analysis.
+* **[Image Classification](projects/image-classification.md):** Developed a flexible image classification pipeline with timm, enabling YAML-based training and benchmarking of CNN and ViT architectures on the Oxford-IIIT Pet dataset.
+* **[Anime RecSys](projects/anime_recommender.md):** Benchmarked Two-Tower vs. NeuMF architectures with multiple objectives (MSE, ApproxNDCG); deployed best model via FastAPI with sub-50ms latency.
+
+---
+
+## 📋 All Projects
+
+1. **[SAM-E: Multi-Agent Enrollment Assistant](projects/enrollment-assistance.md)** | [GitHub](https://github.com/HenryNVP/strategic_planning_AI.git)
+   - *Tech: GenAI, RAG, LangGraph, Docker, FastAPI*
+   - Microservices-based agentic system for enrollment assistance
+
+2. **[AI Tutor: RAG-Powered Learning Platform](projects/ai-tutor.md)** | [GitHub](https://github.com/HenryNVP/ai-tutor.git)
+   - *Tech: GenAI, RAG, MCP, FastAPI, OpenAI Agents SDK*
+   - Full-stack educational system with cited answers and adaptive quizzes
+
+3. **[ROS2 BEV-Fusion: Real-Time 3D Perception](projects/ros2-bev-fusion.md)** | [GitHub](https://github.com/HenryNVP/ros2-bevfusion-jetson.git)
+   - *Tech: Python, ROS2, TensorRT, CUDA, Jetson, Edge AI*
+   - Optimized 3D perception pipeline for multi-camera and LiDAR fusion
+
+4. **[FastViT Mobile Optimization](projects/fastvit-pet-mobile.md)**
+   - *Tech: PyTorch, ONNX, Android, Performer Attention, Knowledge Distillation*
+   - Mobile-optimized Vision Transformers achieving 90.1% accuracy @ 43ms
+
+5. **[3D Object Detection Pipeline](projects/object-detection.md)**
+   - *Tech: MMDetection3D, PyTorch, PointPillars, SECOND, CenterPoint*
+   - Inference pipeline for KITTI and nuScenes datasets
+
+6. **[Image Classification](projects/image-classification.md)**
+   - *Tech: timm, PyTorch, RegNet, YAML configs*
+   - Flexible training pipeline for CNN and ViT architectures
+
+7. **[Anime Recommender](projects/anime_recommender.md)**
+   - *Tech: PyTorch, Matrix Factorization, NeuMF, Two-Tower, FastAPI*
+   - Recommender system with multiple architectures and objectives
 
 ---
 

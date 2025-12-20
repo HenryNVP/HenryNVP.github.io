@@ -1,0 +1,10 @@
+---
+---
+
+@import "minimal-mistakes";
+
+// Hide masthead site title/logo
+.masthead__inner-wrap .site-title {
+  display: none;
+}
+

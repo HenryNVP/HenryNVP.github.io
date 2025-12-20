@@ -1,1 +1,4 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
+title: Henry Nguyen
+description: AI & Robotics Engineer
+show_downloads: false

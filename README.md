@@ -29,13 +29,13 @@ I am a Master's student in AI at San Jose State University, specializing in **Au
 * **Tech:** Python, ROS2, TensorRT, CUDA, Jetson, Edge AI
 * **Summary:** Developed an optimized BEVFusion 3D perception pipeline for multi-camera and LiDAR fusion. Optimized end-to-end inference with **TensorRT and FP16 quantization**, achieving **~7 FPS** on NVIDIA Jetson Orin Nano and publishing synchronized ROS2 detection messages.
 
+### 📱 [FastViT Mobile Optimization](https://github.com/HenryNVP/fastvit-pet-mobile)
+* **Tech:** PyTorch, Android, Quantization, Knowledge Distillation
+* **Summary:** Engineered a mobile-optimized FastViT architecture by replacing Multi-Head Attention with **Performer Attention** to reduce complexity to **O(N)**, and implementing an **FP16 quantization** pipeline. Achieved a **4.8x inference speedup** on Android devices compared to FP32 baselines while maintaining **identical Top-1 accuracy**, validated via a custom Android benchmarking app.
+
 ---
 
 ## Other Deep Learning Projects
-
-### 📱 [FastViT Mobile Optimization](https://github.com/HenryNVP/fastvit-pet-mobile)
-Optimized Vision Transformers using **Performer attention (O(N))** and knowledge distillation. Achieved **90.1% accuracy @ 43ms** on Android devices.
-* *Stack: PyTorch, ONNX, Android, Knowledge Distillation*
 
 ### 📺 [Anime Recommendation System](https://github.com/HenryNVP/anime_recomender)
 Benchmarked **Two-Tower vs. NeuMF** architectures with multiple objectives (MSE, ApproxNDCG). Deployed the best model via FastAPI with **sub-50ms latency**.

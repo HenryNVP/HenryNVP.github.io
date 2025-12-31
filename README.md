@@ -1,9 +1,8 @@
 # Henry Nguyen
-**Master's Student in AI @ SJSU | Specializing in AI & Robotics**
 
 📍 San Jose, CA • 📞 (206) 751-6618
 
-🔗 [LinkedIn](https://linkedin.com/in/henrynguyen-vp) • [GitHub](https://github.com/HenryNVP) • [Email](mailto:henrynguyen.vp@gmail.com)
+🔗 [LinkedIn](https://linkedin.com/in/henrynguyen-vp) • [GitHub](https://github.com/HenryNVP) • [Email](mailto:henrynguyen.vp@gmail.com) • [Website](https://henrynvp.github.io/)
 
 ---
 
@@ -17,64 +16,60 @@ I am a Master's student in AI at San Jose State University, specializing in **Au
 
 ## Featured AI Projects
 
-### 🎓 [SAM-E: Multi-Agent Enrollment Assistant](https://github.com/HenryNVP/strategic_planning_AI)
-* **Tech:** GenAI, RAG, LangGraph, Docker, FastAPI
-* **Summary:** Architected a microservices-based agentic system with three services (Agent, RAG, Enrollment Engine) using Docker Compose and LangGraph. Developed a retrieval pipeline using **pgvector** to support academic queries and demonstrated functionality via a production-ready **FastAPI** backend with JWT authentication and Prometheus metrics.
-
 ### 🤖 [AI Tutor: RAG-Powered Learning Platform](https://github.com/HenryNVP/ai-tutor)
 * **Tech:** GenAI, RAG, MCP, FastAPI, OpenAI Agents SDK
-* **Summary:** Built a full-stack multi-agent educational system that ingests documents to generate cited answers and adaptive quizzes. Engineered a **source-filtered RAG pipeline** (320x faster retrieval) and a secure Python execution sandbox for real-time data visualization from user CSVs.
+* **Summary:** Built a full-stack **multi-agent** educational system that ingests documents to generate cited answers, adaptive quizzes, and lesson notes via a source-filtered **RAG** pipeline using **ChromaDB**. Implemented an **MCP server** and secure Python execution with **FastAPI** backend, enabling structured tool use, real-time data visualization from CSVs, and adaptive learning features that track student progress.
 
 ### 🚗 [ROS2 BEV-Fusion: Real-Time 3D Perception](https://github.com/HenryNVP/ros2-bevfusion-jetson)
 * **Tech:** Python, ROS2, TensorRT, CUDA, Jetson, Edge AI
-* **Summary:** Developed an optimized BEVFusion 3D perception pipeline for multi-camera and LiDAR fusion. Optimized end-to-end inference with **TensorRT and FP16 quantization**, achieving **~7 FPS** on NVIDIA Jetson Orin Nano and publishing synchronized ROS2 detection messages.
+* **Summary:** Developed an optimized **BEVFusion** 3D perception pipeline for multi-camera and LiDAR fusion, validated on NuScenes and deployed as a modular **ROS2** package. Optimized end-to-end inference with **TensorRT** and quantization, achieving **~7 FPS** for the full BEVFusion pipeline on Jetson Orin Nano and publishing **ROS2** detection outputs with latency metrics.
 
 ### 📱 [FastViT Mobile Optimization](https://github.com/HenryNVP/fastvit-pet-mobile)
 * **Tech:** PyTorch, Android, Quantization, Knowledge Distillation
-* **Summary:** Engineered a mobile-optimized FastViT architecture by replacing Multi-Head Attention with **Performer Attention** to reduce complexity to **O(N)**, and implementing an **FP16 quantization** pipeline. Achieved a **4.8x inference speedup** on Android devices compared to FP32 baselines while maintaining **identical Top-1 accuracy**, validated via a custom Android benchmarking app.
+* **Summary:** Re-architected FastViT by replacing Multi-Head Attention with **Performer Attention** (**O(N)**) and implementing **FP16 quantization**, achieving a **4.8x speedup** on Android with **identical Top-1 accuracy**.
+
+### 🎓 [SAM-E: Agentic Enrollment System](https://github.com/HenryNVP/strategic_planning_AI)
+* **Tech:** GenAI, RAG, LangGraph, Docker, FastAPI
+* **Summary:** Architected a microservices-based agentic system with three services (Agent, RAG, Enrollment Engine) using **Docker Compose** and **LangGraph** to route user intents to specialized tools. Developed a retrieval pipeline using **pgvector** to support academic queries, with planned integration of a **Neo4j** knowledge graph; demonstrated functionality via **FastAPI**, **JWT authentication**, and **Prometheus** metrics.
 
 ---
 
-## Other Deep Learning Projects
+## Additional Projects
 
-### 📺 [Anime Recommendation System](https://github.com/HenryNVP/anime_recomender)
-Benchmarked **Two-Tower vs. NeuMF** architectures with multiple objectives (MSE, ApproxNDCG). Deployed the best model via FastAPI with **sub-50ms latency**.
-* *Stack: PyTorch, Matrix Factorization, Two-Tower, FastAPI*
-
-### 🖼 [3D Object Detection Pipeline](https://github.com/HenryNVP/object-detection-3d)
-Built a modular inference pipeline using **MMDetection3D** (PointPillars, CenterPoint) for KITTI and nuScenes datasets, focusing on deployment analysis and visualization.
-* *Stack: MMDetection3D, PyTorch, PointPillars, CenterPoint*
-
-### 🐕 [Flexible Image Classification](https://github.com/HenryNVP/image-classification)
-Developed a training pipeline with **timm**, enabling YAML-based benchmarking of CNN and ViT architectures on the Oxford-IIIT Pet dataset.
-* *Stack: timm, PyTorch, RegNet, YAML configs*
+* **Image Classification:** Engineered a **timm** pipeline with automated **ONNX** export for rapid CNN/ViT benchmarking.
+* **3D Object Detection Pipeline:** Built **MMDetection3D** end-to-end inference pipeline for KITTI/nuScenes.
+* **Anime RecSys:** Trained and deployed **NeuMF** and **Two-Tower** recommender system via **FastAPI**.
+* **Client Web Projects:** Delivered commercial **WordPress** sites with automated booking, increasing client inquiries.
 
 ---
 
 ## Professional Experience
 
-**Software Engineer (Automotive Systems)** | *Jun. 2023 -- Dec. 2023* *Bosch Global Software Technologies, Ho Chi Minh, Vietnam*
-* Led integration testing for the Electronic Stability Program (ESP) across 10+ projects, ensuring ISO-standard compliance.
-* Collaborated with cross-functional teams to debug Hardware-in-the-Loop (HIL) failures, reducing defect resolution time.
+**Software Integration Engineer (Automotive Safety Systems)** | *Jun. 2023 -- Dec. 2023*  
+*Bosch Global Software Technologies, Ho Chi Minh, Vietnam*
+* Managed the software release lifecycle for **8+ ESP (Electronic Stability Program)** projects, integrating modules from cross-functional teams to deliver production-ready baselines.
+* Executed comprehensive integration testing (**SiL & HiL**) and authored **ISO-compliant validation reports**, identifying critical defects to ensure system stability before delivery.
 
-**Undergraduate Researcher** | *Aug. 2022 -- Dec. 2022* *Mechatronics Lab, HCMUT, Ho Chi Minh, Vietnam*
-* Designed an adaptive 3-finger robotic gripper (+200% payload capacity) and developed the C++ control stack for a 5-axis manipulator.
+**Undergraduate Researcher** | *Aug. 2022 -- Dec. 2022*  
+*Mechatronics Lab, HCMUT, Ho Chi Minh, Vietnam*
+* Designed an adaptive 3-finger robotic gripper (+200% payload capacity) and engineered a **vision-guided control stack** (C++, YOLO) for a 5-axis manipulator to execute automated pick-and-place tasks.
 
 ---
 
 ## Education
 
-**Master of Science in Artificial Intelligence** | *Expected May 2026*  
-San Jose State University, San Jose, CA
+**Master of Science in Artificial Intelligence** | *Exp. May 2026*  
+San Jose State University, San Jose, CA  
+*Coursework: AI & Data Engineering, Deep Learning, Reinforcement Learning, Autonomous Driving, MLOps*
 
-**Bachelor of Engineering in Mechatronic Engineering** | *April 2023*  
+**Bachelor of Engineering in Mechatronic Engineering** | *Apr. 2023*  
 Ho Chi Minh City University of Technology, Vietnam
 
 ---
 
 ## Technical Skills
 
-* **AI & Agents:** LLMs, LangGraph, RAG, Vector DBs, LangChain, Agentic AI, Chain-of-Thought
-* **Machine Learning:** PyTorch, ONNX, TensorRT, Scikit-learn, CNNs, Transformers, RecSys
-* **Robotics:** ROS2, LiDAR-Camera Fusion, SLAM, Control systems, Autonomous pipelines
-* **Deployment:** Python, FastAPI, Microservices, Git, Docker, Edge & Mobile AI
+* **AI & Agents:** LLMs, LangGraph, GraphRAG, MCP, Vector/Graph DBs, Agentic Workflows
+* **Machine Learning:** PyTorch, TensorRT, ONNX, CUDA, Quantization, Transformers, CNNs, RecSys
+* **Robotics:** ROS2, LiDAR-Camera Fusion, 3D Perception, Navigation, Control Systems, System Integration
+* **Software & DevOps:** Python, FastAPI, Docker, Microservices, Prometheus, Edge AI (Jetson, ONNX Runtime)

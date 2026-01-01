@@ -18,14 +18,14 @@ I am a Master's student in AI at San Jose State University, specializing in **Au
 
 ### 🤖 [AI Tutor: RAG-Powered Learning Platform](https://github.com/HenryNVP/ai-tutor)
 * **Tech:** GenAI, RAG, MCP, FastAPI, OpenAI Agents SDK
-* **Summary:** Built a full-stack **multi-agent** educational system that ingests documents to generate cited answers, adaptive quizzes, and lesson notes via a source-filtered **RAG** pipeline using **ChromaDB**. Implemented an **MCP server** and secure Python execution with **FastAPI** backend, enabling structured tool use, real-time data visualization from CSVs, and adaptive learning features that track student progress.
+* **Summary:** Built a full-stack **multi-agent** educational system that ingests documents to generate cited answers, adaptive quizzes, and lesson notes via a source-filtered **RAG** pipeline using **ChromaDB**. Implemented **MCP servers** and secure Python execution with **FastAPI** backend, enabling structured tool use, real-time data visualization from CSVs, and adaptive learning features that track student progress.
 
 ### 🚗 [ROS2 BEV-Fusion: Real-Time 3D Perception](https://github.com/HenryNVP/ros2-bevfusion-jetson)
-* **Tech:** Python, ROS2, TensorRT, CUDA, Jetson, Edge AI
+* **Tech:** ROS2, TensorRT, CUDA, Jetson, Edge AI
 * **Summary:** Developed an optimized **BEVFusion** 3D perception pipeline for multi-camera and LiDAR fusion, validated on NuScenes and deployed as a modular **ROS2** package. Optimized end-to-end inference with **TensorRT** and quantization, achieving **~7 FPS** for the full BEVFusion pipeline on Jetson Orin Nano and publishing **ROS2** detection outputs with latency metrics.
 
 ### 📱 [FastViT Mobile Optimization](https://github.com/HenryNVP/fastvit-pet-mobile)
-* **Tech:** PyTorch, Android, Quantization, Knowledge Distillation
+* **Tech:** PyTorch, ONNX Runtime, Quantization, Knowledge Distillation
 * **Summary:** Re-architected FastViT by replacing Multi-Head Attention with **Performer Attention** (**O(N)**) and implementing **FP16 quantization**, achieving a **4.8x speedup** on Android with **identical Top-1 accuracy**.
 
 ### 🎓 [SAM-E: Agentic Enrollment System](https://github.com/HenryNVP/strategic_planning_AI)
@@ -37,7 +37,6 @@ I am a Master's student in AI at San Jose State University, specializing in **Au
 ## Additional Projects
 
 * **Image Classification:** Engineered a **timm** pipeline with automated **ONNX** export for rapid CNN/ViT benchmarking.
-* **3D Object Detection Pipeline:** Built **MMDetection3D** end-to-end inference pipeline for KITTI/nuScenes.
 * **Anime RecSys:** Trained and deployed **NeuMF** and **Two-Tower** recommender system via **FastAPI**.
 * **Client Web Projects:** Delivered commercial **WordPress** sites with automated booking, increasing client inquiries.
 
@@ -52,7 +51,7 @@ I am a Master's student in AI at San Jose State University, specializing in **Au
 
 **Undergraduate Researcher** | *Aug. 2022 -- Dec. 2022*  
 *Mechatronics Lab, HCMUT, Ho Chi Minh, Vietnam*
-* Designed an adaptive 3-finger robotic gripper (+200% payload capacity) and engineered a **vision-guided control stack** (C++, YOLO) for a 5-axis manipulator to execute automated pick-and-place tasks.
+* Designed and fabricated a custom 3-finger gripper (+200% payload) and **retrofitted** a 5-axis manipulator, engineering a **vision-guided control stack** (C++, YOLO) for automated pick-and-place.
 
 ---
 
@@ -69,7 +68,8 @@ Ho Chi Minh City University of Technology, Vietnam
 
 ## Technical Skills
 
-* **AI & Agents:** LLMs, LangGraph, GraphRAG, MCP, Vector/Graph DBs, Agentic Workflows
-* **Machine Learning:** PyTorch, TensorRT, ONNX, CUDA, Quantization, Transformers, CNNs, RecSys
-* **Robotics:** ROS2, LiDAR-Camera Fusion, 3D Perception, Navigation, Control Systems, System Integration
-* **Software & DevOps:** Python, FastAPI, Docker, Microservices, Prometheus, Edge AI (Jetson, ONNX Runtime)
+* **Languages:** Python, C++, C, SQL, Bash, MATLAB
+* **AI & Agents:** LLMs, LangGraph, RAG, MCP, Vector/Graph DBs, Agentic Workflows
+* **Machine Learning:** PyTorch, TensorRT, ONNX, CUDA, Quantization, Transformers, CNNs
+* **Robotics:** ROS2, System Integration, Sensor Fusion, Navigation, Control Systems
+* **Software & Tools:** Git, Docker, CI/CD, Linux, FastAPI, Microservices, Edge AI (Jetson)

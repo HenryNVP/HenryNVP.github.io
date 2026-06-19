@@ -2,23 +2,29 @@
 
 📍 San Jose, CA • 📞 (206) 751-6618
 
-🔗 [LinkedIn](https://linkedin.com/in/henrynguyen-vp) • [GitHub](https://github.com/HenryNVP) • [Email](mailto:henrynguyen.vp@gmail.com) • [Website](https://henrynvp.github.io/)
+🔗 [LinkedIn](https://linkedin.com/in/henrynguyen-vp) • [GitHub](https://github.com/HenryNVP) • [Resume](./cv-henry-nguyen-capria-ventures.pdf) • [Email](mailto:henrynguyen.vp@gmail.com) • [Website](https://henrynvp.github.io/)
 
 ---
 
 ## About Me
 
-I am a Master's student in AI at San Jose State University, specializing in **Autonomous Systems**, **Agentic AI**, and **Edge Deployment**. I bridge the gap between high-level reasoning (LLMs) and low-level hardware optimization (TensorRT/CUDA).
-
-[📥 Download My Resume (PDF)](./Henry_Nguyen_Resume.pdf)
+I hold an M.S. in AI from San Jose State University, specializing in **Autonomous Systems**, **Agentic AI**, and **Edge Deployment**. I bridge the gap between high-level reasoning (LLMs) and low-level hardware optimization (TensorRT/CUDA).
 
 ---
 
-## Featured AI Projects
+## AI Agent Projects
 
 ### 🤖 [AI Tutor: RAG-Powered Learning Platform](https://github.com/HenryNVP/ai-tutor)
 * **Tech:** GenAI, RAG, MCP, FastAPI, OpenAI Agents SDK
 * **Summary:** Built a full-stack **multi-agent** educational system that ingests documents to generate cited answers, adaptive quizzes, and lesson notes via a source-filtered **RAG** pipeline using **ChromaDB**. Implemented **MCP servers** and secure Python execution with **FastAPI** backend, enabling structured tool use, real-time data visualization from CSVs, and adaptive learning features that track student progress.
+
+### 🎓 [SAM-E: Enrollment Assistant](https://github.com/HenryNVP/enrollment-assistance)
+* **Tech:** LangGraph, RAG, pgvector, Neo4j, FastAPI, Docker, AWS
+* **Summary:** Built a scalable microservices ML system for SJSU enrollment: **LangGraph** agentic orchestration over HTTP tool-calling to **pgvector** vector search, a **Neo4j** graph gateway, and web search—from document ingestion to real-time **FastAPI** serving. Answers enrollment and program questions by retrieving policy and curriculum documents, looking up curated prerequisites and program structure, and ingesting scraped SJSU source material. Containerized with **Docker Compose** and deployed on **AWS**.
+
+---
+
+## Autonomous Systems & Edge AI
 
 ### 🚗 [ROS2 BEV-Fusion: Real-Time 3D Perception](https://github.com/HenryNVP/ros2-bevfusion-jetson)
 * **Tech:** ROS2, TensorRT, CUDA, Jetson, Edge AI
@@ -27,10 +33,6 @@ I am a Master's student in AI at San Jose State University, specializing in **Au
 ### 📱 [FastViT Mobile Optimization](https://github.com/HenryNVP/fastvit-pet-mobile)
 * **Tech:** PyTorch, ONNX Runtime, Quantization, Knowledge Distillation
 * **Summary:** Re-architected FastViT by replacing Multi-Head Attention with **Performer Attention** (**O(N)**) and implementing **FP16 quantization**, achieving a **4.8x speedup** on Android with **identical Top-1 accuracy**.
-
-### 🎓 [SAM-E: Agentic Enrollment System](https://github.com/HenryNVP/strategic_planning_AI)
-* **Tech:** GenAI, RAG, LangGraph, Docker, FastAPI
-* **Summary:** Architected a microservices-based agentic system with three services (Agent, RAG, Enrollment Engine) using **Docker Compose** and **LangGraph** to route user intents to specialized tools. Developed a retrieval pipeline using **pgvector** to support academic queries, with planned integration of a **Neo4j** knowledge graph; demonstrated functionality via **FastAPI**, **JWT authentication**, and **Prometheus** metrics.
 
 ---
 
@@ -57,7 +59,7 @@ I am a Master's student in AI at San Jose State University, specializing in **Au
 
 ## Education
 
-**Master of Science in Artificial Intelligence** | *Exp. May 2026*  
+**Master of Science in Artificial Intelligence** | *May 2026*  
 San Jose State University, San Jose, CA  
 *Coursework: AI & Data Engineering, Deep Learning, Reinforcement Learning, Autonomous Driving, MLOps*
 

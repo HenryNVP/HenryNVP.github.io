@@ -2,7 +2,7 @@
 
 📍 San Jose, CA • 📞 (206) 751-6618
 
-🔗 [LinkedIn](https://linkedin.com/in/henrynguyen-vp) • [GitHub](https://github.com/HenryNVP) • [Resume](./cv-henry-nguyen-capria-ventures.pdf) • [Email](mailto:henrynguyen.vp@gmail.com) • [Website](https://henrynvp.github.io/)
+🔗 [LinkedIn](https://linkedin.com/in/henrynguyen-vp) • [GitHub](https://github.com/HenryNVP) • [Resume](./henry-nguyen-robotics-resume.pdf) • [Email](mailto:henrynguyen.vp@gmail.com) • [Website](https://henrynvp.github.io/)
 
 ---
 

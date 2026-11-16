@@ -35,7 +35,7 @@ Robotics engineer at the hardware-software boundary: closed-loop control and SLA
 
 ## AI Agent Projects
 
-### 🤖 [AI Tutor: RAG-Powered Learning Platform](https://github.com/HenryNVP/ai-tutor)
+### 🤖 [RAG Study Assistant: Multi-Agent Learning Platform](https://github.com/HenryNVP/ai-tutor)
 * **Tech:** GenAI, RAG, MCP, FastAPI, OpenAI Agents SDK
 * **Summary:** Built a full-stack **multi-agent** educational system that ingests documents to generate cited answers, adaptive quizzes, and lesson notes via a source-filtered **RAG** pipeline using **ChromaDB**. Implemented **MCP servers** and secure Python execution with **FastAPI** backend, enabling structured tool use, real-time data visualization from CSVs, and adaptive learning features that track student progress.
 

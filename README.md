@@ -33,6 +33,18 @@ Robotics engineer at the hardware-software boundary: closed-loop control and SLA
 
 ---
 
+## AI Agent Projects
+
+### 🤖 [AI Tutor: RAG-Powered Learning Platform](https://github.com/HenryNVP/ai-tutor)
+* **Tech:** GenAI, RAG, MCP, FastAPI, OpenAI Agents SDK
+* **Summary:** Built a full-stack **multi-agent** educational system that ingests documents to generate cited answers, adaptive quizzes, and lesson notes via a source-filtered **RAG** pipeline using **ChromaDB**. Implemented **MCP servers** and secure Python execution with **FastAPI** backend, enabling structured tool use, real-time data visualization from CSVs, and adaptive learning features that track student progress.
+
+### 🎓 [SAM-E: Enrollment Assistant](https://github.com/HenryNVP/enrollment-assistance)
+* **Tech:** LangGraph, RAG, pgvector, Neo4j, FastAPI, Docker, AWS
+* **Summary:** Built a scalable microservices ML system for SJSU enrollment: **LangGraph** agentic orchestration over HTTP tool-calling to **pgvector** vector search, a **Neo4j** graph gateway, and web search—from document ingestion to real-time **FastAPI** serving. Answers enrollment and program questions by retrieving policy and curriculum documents, looking up curated prerequisites and program structure, and ingesting scraped SJSU source material. Containerized with **Docker Compose** and deployed on **AWS**.
+
+---
+
 ## Professional Experience
 
 **AI Tutor: Live Voice Tutoring Platform** | *2026 – Present*  

@@ -16,7 +16,7 @@ Robotics engineer at the hardware-software boundary: closed-loop control and SLA
 
 ### 📄 [Head or Representation? Diagnosing Distribution-Shift Failures of Visuomotor Policies with Last-Layer Retraining](./head-or-representation-paper.pdf) *(Working draft, Nov. 2026)*
 * Adapts last-layer retraining to closed-loop policies: freeze the backbone, retrain only the action head on states the policy visits, labeled in simulation with the frozen policy's actions on the unperturbed state. Beating both the base policy and an invisible-object control means the failure is **head-limited**.
-* For **ACT, Diffusion Policy and SmolVLA**, 9 of 11 visual failures on robomimic Lift are head-limited, and retraining ACT's head closes over half the gap for out-of-range objects without new demonstrations. On Square and ToolHang none of the 10 failures are, so the regime depends more on the task than on failure severity.
+* For **ACT, Diffusion Policy and SmolVLA**, 9 of 11 visual failures on robomimic Lift are head-limited, and for out-of-range objects, retraining the head on pseudo-labels closes over half the gap to expert labels without new demonstrations. On Square and ToolHang, none of the 25 failures (nor 3 partial ones on Square) are, so the regime depends more on the task than on failure severity.
 
 ---
 
